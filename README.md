@@ -83,6 +83,9 @@
 
 # 使用此模版的一些常见问题
 ## 1.如何使用该模版？
+
+Note：后续会补充视频说明，敬请期待。
+
 前置软件：TeXworks editor; Vscode;
 
 第一步：下载安装TeXworks editor，此时要确保电脑上不存在其他任何latex编译软件。
