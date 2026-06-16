@@ -91,4 +91,4 @@
 
 第三步：下载模版，使用Vscode进入模版主目录。
 
-第四步：编译cucthesis-detail-abstract.tex文件便可在out文件夹输出详细摘要；编译cucthesis.tex文件便可在out文件夹输出论文；
+第四步：编译cucthesis-detail-abstract.tex文件便可在out文件夹输出详细摘要；编译cucthesis.tex文件便可在out文件夹输出论文。
