@@ -1,0 +1,32 @@
+% 中文摘要
+
+\clearpage
+
+\assignpagestyle{\chapter}{previous}
+\pagestyle{previous}
+
+% 摘要页为罗马数字页码第一页
+\pagenumbering{Roman}
+\setcounter{page}{1}
+
+\phantomsection
+\addcontentsline{toc}{chapter}{摘要}
+\markboth{摘要}{摘要}
+
+% 注意修改论文标题
+\chapter*{\centerline{这里是论文标题}}
+
+% \vspace{10pt}
+
+\begin{center}
+    \zihao{-3} \heiti
+    摘 \quad 要
+\end{center}
+
+\vspace{12pt}
+
+这里是摘要。
+
+\vspace{12pt}
+
+\noindent \textbf{\zihao{4}\heiti 关键词：} 关键词1；关键词2；关键词3

@@ -1,0 +1,30 @@
+% 图、表、代码块的题注
+
+% 设置一种题注的样式，5号宋体加粗（细则中并没有对此进行规定）
+\DeclareCaptionFont{captionfont}{\zihao{5}\songti}
+
+% 设置图、表、代码块题注使用captionfont样式，并且使用空格作为分隔符
+\captionsetup[figure]{font=captionfont,labelsep=space}
+\captionsetup[table]{font=captionfont,labelsep=space}
+\captionsetup[lstlisting]{font=captionfont,labelsep=space}
+
+% `position` doesn't actually set the caption position,
+% It only determines weather the `skip` inserted above/below `caption`
+% 这里的属性并非设置题注的位置，而至
+% \captionsetup{position=bottom}
+
+% 题注序号
+\counterwithin*{figure}{chapter}
+\renewcommand{\thefigure}{\arabic{chapter}.\arabic{figure}}
+
+\counterwithin*{table}{chapter}
+\renewcommand{\thetable}{\arabic{chapter}.\arabic{table}}
+
+% \counterwithin*{lstlisting}{chapter}
+% \renewcommand{\thelstlisting}{\arabic{chapter}.\arabic{lstlisting}}
+
+\counterwithin*{equation}{chapter}
+\renewcommand{\theequation}{\arabic{chapter}-\arabic{equation}}
+
+\counterwithin*{algocf}{chapter}
+\renewcommand{\thealgocf}{\arabic{chapter}-\arabic{algocf}}

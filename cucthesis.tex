@@ -1,0 +1,52 @@
+% !TEX encoding = UTF-8 Unicode
+
+\documentclass[]{cucthesis}
+
+\begin{document}
+
+\newcommand{\incite}[1]{\scalebox{1.5}[1.5]{\raisebox{-0.8ex}{\cite{#1}}}} 
+
+% 封面
+\input{pages/cover.tex}
+% \input{pages/cover-blind-review.tex} %此处可切换为盲审版本封面
+
+% 独创性声明
+\input{pages/auth-claim.tex}
+% AI声明
+\input{pages/AI-claim.tex}
+% 中文摘要
+\input{pages/abstract-chn.tex}
+% 英文摘要
+\input{pages/abstract-eng.tex}
+% 目录（目录、图表目录）
+\input{pages/toc.tex}
+% 主要缩略词列表
+\input{pages/abbreviation.tex}
+% 符号说明
+\input{pages/symbol.tex}
+
+% 正文从奇数页码开始
+\cleardoublepage
+% 布局样式设置
+\assignpagestyle{\chapter}{body}
+\pagestyle{body}
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+% 下面为正文章节，如果可以请放置在chapters文件夹中，便于寻找
+\input{chapters/Chapter 1.tex}
+
+\input{chapters/Chapter 2.tex}
+
+\input{chapters/Chapter 3.tex}
+
+% 参考文献
+\input{pages/reference.tex}
+
+% 个人成果
+\input{pages/personal-achievement.tex} 
+
+% 致谢
+\input{pages/thanksto.tex}
+
+\end{document}
