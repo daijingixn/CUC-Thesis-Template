@@ -1,7 +1,7 @@
 # CUC-Thesis-Template
 本人已使用此模版完成中国传媒大学硕士以及博士论文的撰写，盲审以及图书馆提交均未被质疑格式问题。
 
-模版的最初版本来源于https://github.com/AmnesiaBeing/CUC-Thesis-Template。
+模版的最初版本来源于https://github.com/AmnesiaBeing/CUC-Thesis-Template 。
 
 # 模版结构说明
 .
