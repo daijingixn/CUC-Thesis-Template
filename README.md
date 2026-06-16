@@ -82,4 +82,13 @@
 
 
 # 使用此模版的一些常见问题
-## 如何使用该模版？
+## 1.如何使用该模版？
+前置软件：TeXworks editor; Vscode;
+
+第一步：下载安装TeXworks editor，此时要确保电脑上不存在其他任何latex编译软件。
+
+第二步：下载安装Vscode，进入插件商城安装插件LaTeX Workshop。
+
+第三步：下载模版，使用Vscode进入模版主目录。
+
+第四步：编译cucthesis-detail-abstract.tex文件便可在out文件夹输出详细摘要；编译cucthesis.tex文件便可在out文件夹输出论文；
