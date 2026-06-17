@@ -82,6 +82,9 @@
 
 
 # 使用此模版的一些常见问题
+
+补充中，如果有问题咨询，欢迎向daijingxin2012@163.com发送邮件。
+
 ## 1.如何使用该模版？
 
 Note：后续会补充视频说明，敬请期待。
@@ -95,3 +98,8 @@ Note：后续会补充视频说明，敬请期待。
 第三步：下载模版，使用Vscode进入模版主目录。
 
 第四步：编译cucthesis-detail-abstract.tex文件便可在out文件夹输出详细摘要；编译cucthesis.tex文件便可在out文件夹输出论文。
+
+## 2.如何使用latex生成表格？
+
+Latex自己生成表格会非常麻烦，建议使用这个工具（该工具可手动调整表格格式并生成表格的Latex代码）：https://www.tablesgenerator.com/
+
